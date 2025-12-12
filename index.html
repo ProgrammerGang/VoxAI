@@ -10,15 +10,24 @@
       padding: 0;
       height: 100%;
       overflow: hidden;
+      font-family: sans-serif;
+    }
+    h1 {
+      margin: 0;
+      padding: 20px;
+      background: #f0f0f0;
+      text-align: center;
     }
     iframe {
       width: 100%;
-      height: 100%;
+      height: calc(100% - 60px); /* adjust if h1 height changes */
       border: none;
+      display: block;
     }
   </style>
 </head>
 <body>
+  <h1>My Awesome Header</h1>
   <iframe src="https://fu01978-voxai.hf.space/"></iframe>
 </body>
 </html>
