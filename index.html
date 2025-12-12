@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cropped Fullscreen Iframe</title>
-<style>
-  html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden; /* prevent scrolling the body */
-  }
-
-  /* wrapper for cropping */
-  .iframe-wrapper {
-    width: 100vw;
-    height: 100vh; /* full viewport */
-    overflow: hidden;
-    position: relative;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Site</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-<div class="iframe-wrapper">
   <iframe src="https://fu01978-voxai.hf.space/"></iframe>
-</div>
 </body>
 </html>
